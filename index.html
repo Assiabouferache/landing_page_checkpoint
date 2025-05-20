@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Store Landing Page</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body class="bg-gradient-to-br from-gray-50 to-blue-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-700 text-white shadow-md">
+      <div
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <h1 class="text-3xl font-extrabold tracking-wide">MyStore</h1>
+        <nav>
+          <ul class="flex gap-6 font-medium">
+            <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+            <li>
+              <a href="#products" class="hover:text-yellow-300">Products</a>
+            </li>
+            <li>
+              <a href="#contact" class="hover:text-yellow-300">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section id="home" class="bg-white py-20 text-center">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Discover the Best Products for You
+        </h2>
+        <p class="text-lg text-gray-600 mb-8">
+          Quality meets affordability. Shop your favorite items now.
+        </p>
+        <a
+          href="#products"
+          class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full text-lg font-semibold transition"
+          >Shop Now</a
+        >
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="py-16 bg-gray-100">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold text-center mb-10 text-blue-700">
+          Featured Products
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <!-- Product Card 1 -->
+          <div
+            class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1606813904665-2ca9d4bc1c7e"
+              alt="Headphones"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Wireless Headphones</h3>
+              <p class="text-gray-600 mb-4">
+                Experience crisp sound quality and long battery life.
+              </p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <!-- Product Card 2 -->
+          <div
+            class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1581291519195-ef11498d1cf5"
+              alt="Wrist Watch"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Classic Wrist Watch</h3>
+              <p class="text-gray-600 mb-4">
+                Timeless elegance with modern precision.
+              </p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div
+            class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1585386959984-a41552263d82"
+              alt="Sneakers"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Stylish Sneakers</h3>
+              <p class="text-gray-600 mb-4">
+                Perfect blend of comfort and fashion.
+              </p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+          <!-- Product Card 4 -->
+          <div
+            class="bg-white shadow-xl rounded-2xl overflow-hidden transition-transform hover:scale-105"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1585238342028-19c287d2295a"
+              alt="Smartphone"
+              class="w-full h-48 object-cover"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-semibold mb-2">Latest Smartphone</h3>
+              <p class="text-gray-600 mb-4">
+                Powerful features in a sleek design.
+              </p>
+              <button
+                class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="contact" class="bg-blue-700 text-white py-10 mt-10">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-lg">&copy; 2025 MyStore. All rights reserved.</p>
+        <p class="text-sm mt-2">
+          Email: support@mystore.com | Phone: (123) 456-7890
+        </p>
+        <div class="mt-4 flex justify-center gap-4">
+          <a href="#" class="hover:text-yellow-300">Facebook</a>
+          <a href="#" class="hover:text-yellow-300">Instagram</a>
+          <a href="#" class="hover:text-yellow-300">Twitter</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
